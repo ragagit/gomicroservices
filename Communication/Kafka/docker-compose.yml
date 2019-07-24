@@ -47,6 +47,7 @@ services:
     depends_on:
       - zookeeper
       - kafka
+      - kafka-producer
     links:
       - kafka
     networks:
