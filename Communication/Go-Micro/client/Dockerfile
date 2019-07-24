@@ -16,4 +16,4 @@ RUN cd ${SOURCES}client/ && CGO_ENABLED=0 go build
 ENV CONSUL_HTTP_ADDR localhost:8500
 
 WORKDIR ${SOURCES}client/
-#CMD ${SOURCES}client/client
+CMD ${SOURCES}client/client
