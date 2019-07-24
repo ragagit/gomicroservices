@@ -480,10 +480,11 @@ Or do a docker-compose up
 
 Check RabbitMQ
 
-Localhost:15672
+localhost:15672
 
 === Kafka ===
 Modify yml files accordingly.
+go get -u github.com/Shopify/sarama 
 
 protoc --go_out=plugins=grpc:. helloworld.proto
 
